@@ -1,0 +1,216 @@
+[
+  {
+    "id": "ORD-2026-2489",
+    "createdAt": "2026-10-14T14:33:05.230Z",
+    "updatedAt": "2026-10-14T14:33:05.230Z",
+    "customer": {
+      "name": "ำน",
+      "email": "skoo@gmail.com",
+      "phone": "0963019202",
+      "address": "203jsm"
+    },
+    "userEmail": "skoo@gmail.com",
+    "fileName": "benchy.stl",
+    "fileSize": 2048000,
+    "fileUrl": "/samples/benchy.stl",
+    "metrics": {
+      "volumeCm3": 8,
+      "dimensionsMm": {
+        "x": 20,
+        "y": 20,
+        "z": 20
+      },
+      "surfaceAreaCm2": 24,
+      "triangleCount": 12
+    },
+    "config": {
+      "material": "RESIN",
+      "color": "Dental Beige",
+      "quality": "ULTRA",
+      "infillPercent": 20,
+      "infillPattern": "gyroid",
+      "supports": false,
+      "quantity": 1,
+      "specialInstructions": ""
+    },
+    "estimation": {
+      "weightGrams": 3.5,
+      "printTimeMinutes": 45,
+      "materialCost": 12,
+      "machineTimeCost": 21,
+      "supportCost": 0,
+      "baseSetupFee": 35,
+      "unitPrice": 99,
+      "totalPrice": 99
+    },
+    "status": "PENDING_PAYMENT",
+    "payment": {
+      "method": "PROMPTPAY",
+      "amount": 99
+    }
+  },
+  {
+    "id": "ORD-2026-9041",
+    "createdAt": "2026-10-14T12:33:05.178Z",
+    "updatedAt": "2026-10-14T12:33:05.178Z",
+    "customer": {
+      "name": "Somchai Prasert",
+      "email": "somchai.p@gmail.com",
+      "phone": "089-123-4567",
+      "address": "99/12 หมู่บ้านพฤกษาลดา ถ.ราชพฤกษ์ ต.บางกร่าง อ.เมือง จ.นนทบุรี 11000"
+    },
+    "userEmail": "somchai.p@gmail.com",
+    "fileName": "benchy_calibration_test.stl",
+    "fileSize": 2458320,
+    "fileUrl": "/samples/benchy.stl",
+    "metrics": {
+      "volumeCm3": 15.4,
+      "dimensionsMm": {
+        "x": 60,
+        "y": 31,
+        "z": 48
+      },
+      "surfaceAreaCm2": 82.5,
+      "triangleCount": 22450
+    },
+    "config": {
+      "material": "PLA",
+      "color": "Galaxy Blue",
+      "quality": "HIGH",
+      "infillPercent": 20,
+      "infillPattern": "gyroid",
+      "supports": false,
+      "quantity": 1,
+      "specialInstructions": "ขอเก็บขอบให้เรียบเนียนที่สุดครับ ใช้เป็นตัวโชว์หน้าร้าน"
+    },
+    "estimation": {
+      "weightGrams": 18.2,
+      "printTimeMinutes": 145,
+      "materialCost": 22,
+      "machineTimeCost": 68,
+      "supportCost": 0,
+      "baseSetupFee": 35,
+      "unitPrice": 150,
+      "totalPrice": 150
+    },
+    "status": "PRINTING",
+    "payment": {
+      "method": "PROMPTPAY",
+      "amount": 150,
+      "slipUrl": "/samples/sample_slip.png",
+      "paidAt": "2026-10-14T13:03:05.178Z",
+      "verifiedAt": "2026-10-14T13:21:05.178Z",
+      "verifiedBy": "Staff Operator 01"
+    },
+    "trackingNumber": "TH-EX-8891024",
+    "staffNotes": "Bambu Lab X1-Carbon #03 assigned. Bed temp 60C, Nozzle 215C."
+  },
+  {
+    "id": "ORD-2026-9042",
+    "createdAt": "2026-10-14T02:33:05.178Z",
+    "updatedAt": "2026-10-14T13:33:05.178Z",
+    "customer": {
+      "name": "Nattaporn Srisuk",
+      "email": "nattaporn.s@outlook.com",
+      "phone": "081-987-6543",
+      "address": "55/4 อาคารสำนักงานเอ็มไพร์ทาวเวอร์ ชั้น 24 ถ.สาทรใต้ แขวงยานนาวา เขตสาทร กทม. 10120"
+    },
+    "userEmail": "nattaporn.s@outlook.com",
+    "fileName": "drone_motor_mount_v2.stl",
+    "fileSize": 4120890,
+    "fileUrl": "/samples/drone_mount.stl",
+    "metrics": {
+      "volumeCm3": 42.8,
+      "dimensionsMm": {
+        "x": 110,
+        "y": 95,
+        "z": 28.5
+      },
+      "surfaceAreaCm2": 148.2,
+      "triangleCount": 48900
+    },
+    "config": {
+      "material": "PETG",
+      "color": "Jet Black",
+      "quality": "STANDARD",
+      "infillPercent": 50,
+      "infillPattern": "grid",
+      "supports": true,
+      "quantity": 4,
+      "specialInstructions": "เน้นความแข็งแรงสูงครับ เป็นชิ้นส่วนยึดมอเตอร์โดรน"
+    },
+    "estimation": {
+      "weightGrams": 58.6,
+      "printTimeMinutes": 280,
+      "materialCost": 94,
+      "machineTimeCost": 130,
+      "supportCost": 20,
+      "baseSetupFee": 35,
+      "unitPrice": 280,
+      "totalPrice": 1120
+    },
+    "status": "PAYMENT_SUBMITTED",
+    "payment": {
+      "method": "PROMPTPAY",
+      "amount": 1120,
+      "slipUrl": "/samples/sample_slip.png",
+      "paidAt": "2026-10-14T13:33:05.178Z"
+    },
+    "staffNotes": "รอเจ้าหน้าที่ตรวจสอบสลิป 1,120 บาท ยอดตรงกับรายการโอน"
+  },
+  {
+    "id": "ORD-2026-9043",
+    "createdAt": "2026-10-13T14:33:05.178Z",
+    "updatedAt": "2026-10-14T09:33:05.178Z",
+    "customer": {
+      "name": "Kittisak Techaphan",
+      "email": "kittisak.t@gmail.com",
+      "phone": "086-555-4321",
+      "address": "12/8 หมู่ 3 ต.สุเทพ อ.เมือง จ.เชียงใหม่ 50200"
+    },
+    "userEmail": "kittisak.t@gmail.com",
+    "fileName": "custom_phone_case_magsafe.stl",
+    "fileSize": 1850320,
+    "fileUrl": "/samples/phone_case.stl",
+    "metrics": {
+      "volumeCm3": 28.1,
+      "dimensionsMm": {
+        "x": 150,
+        "y": 75,
+        "z": 12
+      },
+      "surfaceAreaCm2": 190.4,
+      "triangleCount": 31200
+    },
+    "config": {
+      "material": "TPU",
+      "color": "Translucent White",
+      "quality": "HIGH",
+      "infillPercent": 100,
+      "infillPattern": "gyroid",
+      "supports": false,
+      "quantity": 1
+    },
+    "estimation": {
+      "weightGrams": 34,
+      "printTimeMinutes": 210,
+      "materialCost": 95,
+      "machineTimeCost": 98,
+      "supportCost": 0,
+      "baseSetupFee": 35,
+      "unitPrice": 275,
+      "totalPrice": 275
+    },
+    "status": "SHIPPED",
+    "payment": {
+      "method": "PROMPTPAY",
+      "amount": 275,
+      "slipUrl": "/samples/sample_slip.png",
+      "paidAt": "2026-10-13T18:33:05.178Z",
+      "verifiedAt": "2026-10-13T20:33:05.178Z",
+      "verifiedBy": "Admin"
+    },
+    "trackingNumber": "KEX-002918239TH",
+    "staffNotes": "จัดส่ง Flash Express แล้ว"
+  }
+]
