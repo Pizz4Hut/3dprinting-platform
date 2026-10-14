@@ -51,7 +51,7 @@ export const Navbar: React.FC = () => {
                 PRINTCRAFT
               </span>
               <span className="px-1.5 py-0.2 rounded text-[10px] font-mono font-bold bg-slate-100 text-slate-700 border border-slate-200">
-                PALANTIR WHITE
+                STUDIO PRO
               </span>
             </div>
             <p className="text-[10px] font-mono uppercase tracking-widest text-slate-400">

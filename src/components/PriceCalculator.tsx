@@ -101,7 +101,7 @@ export const PriceCalculator: React.FC<Props> = ({
         {/* Transparent Cost Breakdown */}
         <div>
           <div className="text-[10px] font-mono uppercase text-slate-400 font-semibold mb-2">
-            COST BREAKDOWN (PALANTIR AUDIT SPEC)
+            COST BREAKDOWN (TRANSPARENT SPEC)
           </div>
           <div className="border border-slate-100 rounded divide-y divide-slate-100 text-xs font-mono">
             <div className="flex justify-between py-2 px-3 text-slate-600">

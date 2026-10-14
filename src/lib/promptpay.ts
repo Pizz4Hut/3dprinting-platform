@@ -78,7 +78,7 @@ export async function generatePromptPayQR(target: string, amount?: number): Prom
     width: 380,
     margin: 2,
     color: {
-      dark: '#0f172a', // Deep Palantir slate
+      dark: '#0f172a',
       light: '#ffffff',
     },
     errorCorrectionLevel: 'M',

@@ -90,7 +90,7 @@ export default function AdminPage() {
     }
   };
 
-  // If Not Authenticated as Admin -> Show Palantir Security Clearance Gate
+  // If Not Authenticated as Admin -> Show Security Clearance Gate
   if (authStatus === 'loading') {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -218,7 +218,7 @@ export default function AdminPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 pt-6 space-y-6">
-        {/* Telemetry Stats Cards (Palantir White Foundry Style) */}
+        {/* Telemetry Stats Cards */}
         {stats && (
           <div className="grid grid-cols-2 lg:grid-cols-5 gap-3">
             <div className="bg-white border border-slate-200 p-4 rounded-lg shadow-technical">

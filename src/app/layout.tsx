@@ -6,7 +6,7 @@ import { Navbar } from '@/components/Navbar';
 export const metadata: Metadata = {
   title: 'PrintCraft 3D // Precision Fabrication Platform',
   description:
-    'Palantir-inspired autonomous 3D printing platform: Instant STL quoting, slicing layer preview, PromptPay payment, and backoffice manufacturing pipeline.',
+    'High-precision autonomous 3D printing platform: Instant STL quoting, slicing layer preview, PromptPay payment, and backoffice manufacturing pipeline.',
 };
 
 export default function RootLayout({
@@ -20,7 +20,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <main className="flex-1">{children}</main>
-          {/* Palantir White Technical Footer */}
+          {/* Technical Footer */}
           <footer className="border-t border-slate-200 bg-slate-50 py-8 px-6 text-xs text-slate-500 font-mono">
             <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="flex items-center gap-3">

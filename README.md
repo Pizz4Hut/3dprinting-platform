@@ -1,4 +1,4 @@
-# PrintCraft 3D Studio (Palantir White Technical Edition)
+# PrintCraft 3D Studio (Clean Tech White Edition)
 
 > แพลตฟอร์มรับพิมพ์ 3D อัตโนมัติ (Autonomous 3D Fabrication Platform) ที่มาพร้อมระบบ 3D Viewer & Slicer Simulation, การคำนวณและประเมินราคาชิ้นงานทันที, ระบบชำระเงินผ่าน PromptPay QR พร้อมแนบสลิป, ระบบจัดการหลังบ้าน (Backoffice Admin) สำหรับดาวน์โหลดไฟล์ STL ไปพิมพ์ และระบบรักษาความปลอดภัยแบบ Role-Based Authentication
 
@@ -25,7 +25,7 @@
   - คำนวณปริมาตรชิ้นงานจริง (Volume $cm^3$) จากสูตร Signed Volume of Tetrahedrons
   - คำนวณน้ำหนักเนื้อพลาสติกที่ใช้จริง (Net Weight g)
   - ประมาณเวลาพิมพ์เสร็จ (Estimated Print Time)
-  - แจกแจงต้นทุนอย่างโปร่งใสตามสไตล์ Palantir White Data Spec (ค่าฟิลาเมนต์, ค่าเวลาเครื่องจักร, ค่าเตรียมฐานพิมพ์)
+  - แจกแจงต้นทุนอย่างโปร่งใสตาม Data Spec ชัดเจน (ค่าฟิลาเมนต์, ค่าเวลาเครื่องจักร, ค่าเตรียมฐานพิมพ์)
 - **PromptPay QR Code & Slip Attachment**:
   - สร้าง QR Code พร้อมเพย์ตามมาตรฐาน EMVCo อัตโนมัติ โดยระบุยอดเงินตรงกับออเดอร์
   - อัปโหลดสลิปโอนเงินพร้อมพรีวิวตรวจสอบได้ทันที
@@ -60,9 +60,9 @@
 
 ---
 
-### 4. ดีไซน์สไตล์ Palantir White Technical Theme
-- สีขาวสะอาดตา คมชัด (`#ffffff` / `#f8fafc`)
-- Typography ชัดเจน สไตล์ Palantir Foundry / Blueprint
+### 4. ดีไซน์สไตล์ Modern Clean Light Tech
+- โทนสีขาวสะอาดตา คมชัด เป็นระเบียบ (`#ffffff` / `#f8fafc`)
+- Typography ชัดเจน สไตล์วิศวกรรมข้อมูล Technical Data
 - กรอบและเส้นแบ่ง 1px Hairline (`border-slate-200`)
 - ตัวเลขสถิติและหน่วยวัดแบบ Monospaced Font (`mm`, `cm³`, `g`, `min`, `THB`)
 - Status Chips และ Badge สีสันแสดงสถานะงานอย่างชัดเจน
@@ -99,7 +99,7 @@ npm run dev
 ## 🛠️ โครงสร้างเทคโนโลยี (Tech Stack)
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS (Palantir White Technical Theme)
+- **Styling**: Tailwind CSS (Clean Light Technical Theme)
 - **3D Engine**: Three.js, STLLoader, OrbitControls
 - **Auth**: NextAuth.js (Google OAuth & Role-Protected Credentials)
 - **Payments**: EMVCo PromptPay QR Code Engine

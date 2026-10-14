@@ -61,7 +61,7 @@ export const Viewer3D: React.FC<Props> = ({
 
     // Scene
     const scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xf8fafc); // Clean Palantir light grey-white
+    scene.background = new THREE.Color(0xf8fafc); // Clean light grey-white
     sceneRef.current = scene;
 
     // Camera
@@ -370,7 +370,7 @@ export const Viewer3D: React.FC<Props> = ({
         </div>
       )}
 
-      {/* Top Floating Control Bar (Palantir White Technical HUD) */}
+      {/* Top Floating Control Bar */}
       <div className="absolute top-3 left-3 right-3 flex items-center justify-between pointer-events-none z-10">
         {/* Left: View Modes */}
         <div className="flex items-center gap-1.5 bg-white/95 backdrop-blur border border-slate-200 p-1 rounded shadow-technical pointer-events-auto">
